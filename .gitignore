@@ -1,0 +1,16 @@
+# Build output
+build/
+
+# Vendored dependencies (clone them as described in README.md)
+libs/JUCE/
+libs/clap-juce-extensions/
+
+# IDE / editor files
+.vs/
+.vscode/
+.idea/
+*.user
+
+# Local planning notes (not published)
+ROADMAP.md
+Key features.md

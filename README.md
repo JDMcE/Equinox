@@ -47,11 +47,15 @@ linear-phase mode, and it can match the tone of a reference track. It is part of
 Download the latest build from the
 [Releases page](https://github.com/JDMcE/Equinox/releases).
 
-**Windows (64-bit VST3):**
+**Windows plugin (64-bit VST3):**
 
-1. Unzip the download.
+1. Download `Equinox-<version>-win64-vst3.zip` and unzip it.
 2. Copy `Equinox.vst3` into `C:\Program Files\Common Files\VST3\`.
 3. Restart your DAW or rescan plugins. Equinox appears under **Equinox Audio**.
+
+**Windows standalone app:** no DAW needed. Download
+`Equinox-<version>-win64-standalone.zip`, unzip it and run `Equinox.exe`. Pick your audio
+device under **Options → Audio/MIDI Settings**.
 
 Prebuilt releases are Windows-only for now. On other platforms you can build from
 source (see [For developers](#for-developers)).
